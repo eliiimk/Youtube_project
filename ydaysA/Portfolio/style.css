@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 2px;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 300px;
+}
+
+header h1 {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 10px;
+}
+
+header p {
+    margin: 0;
+}
+
+.about-section {
+    background-image: url(image1.png);
+    background-size:auto; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+}
+
+.portfolio-section {
+    background-image: url(image2.png);
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.contact-section {
+    background-image: url(image3.png);
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-section.active {
+    flex-direction: row;
+}
+
+.card {
+    width: 150px;
+    height: 250px; 
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex-grow: 1;
+    max-width: calc(25% - 40px);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card img {
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 20px; 
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+h2 {
+    color: #f4f4f4;
+}
+
+p {
+    color: #fff;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

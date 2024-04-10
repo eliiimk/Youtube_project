@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>EM</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('about')">Accueil</a></li>
+                <li><a href="#" onclick="showSection('Portfolio')">Projets</a></li>
+                <li><a href="#" onclick="showSection('Contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+      
+    </section>
+
+    <section id="Portfolio" class="portfolio-section">
+        <div class="card">
+            <h3>Hangman Go</h3>
+            
+            <button onclick="runHangmanGo()">Jouer</button>
+        </div>
+        <div class="card">
+            <h3>Hangman Web</h3>
+            <a href="http://localhost:8000" target="_blank">Jouer</a>
+        </div>
+        <div class="card">
+            <h3>API</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="contact-section">
+        <div class="card">
+            <a href="https://www.instagram.com/eliii.mmk" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+                <h3>Instagram</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.facebook.com/Eli Mk" target="_blank">
+                <img src="facebook.png" alt="Facebook">
+                <h3>Facebook</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://twitter.com/eliii_mmk" target="_blank">
+                <img src="twitter.png" alt="Twitter">
+                <h3>Twitter</h3>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://github.com/eliiimk" target="_blank">
+                <img src="github.png" alt="GitHub">
+                <h3>GitHub</h3>
+            </a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E M. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
