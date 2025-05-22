@@ -1,4 +1,0 @@
-echo ".DS_Store" >> .gitignore
-git add .gitignore
-git commit -m "Ajout de .DS_Store à .gitignore"
-
